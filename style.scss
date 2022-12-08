@@ -1,0 +1,29 @@
+@import 'vars';
+@import 'reset';
+@import 'mixins';
+
+body {
+  background-color: beige;
+}
+
+.box {
+  @include card(100px, 100px, red);
+}
+
+.card {
+  @include card(200px, 200px, black)
+}
+
+.item {
+  @include card(50px, 50px, violet)
+}
+
+.success {
+  @extend %message;
+  border-color: green;
+}
+
+.error {
+  @extend %message;
+  border-color: red;
+}

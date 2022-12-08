@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.error, .success {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+body {
+  background-color: beige;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+.item {
+  height: 50px;
+  width: 50px;
+  background-color: violet;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}/*# sourceMappingURL=style.css.map */
